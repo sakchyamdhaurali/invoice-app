@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:invoice_app/screens/home_page.dart';
+// import 'package:invoice_app/screens/home_page.dart';
+import 'package:invoice_app/screens/task_details.dart';
 
 void main() {
   runApp(const MyApp());
 }
-
+    
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Invoice',
-      home: const HomePage(),
+      home: TaskDetailsScreen(),
     );
   }
 }
